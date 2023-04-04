@@ -1,0 +1,8 @@
+{
+	code: "compost",
+	sealHours: 8,
+	ingredients: [
+		{ type: "item", code: "game:*-raw", name: "game:meat", quantity: 4, allowedVariants: ["redmeat", "poultry", "bushmeat", "fish"] }
+	],
+	output: { type: "item", code: "game:compost", stackSize: 4 }
+}

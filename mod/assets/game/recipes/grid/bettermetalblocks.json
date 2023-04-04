@@ -1,0 +1,21 @@
+[
+	{
+		ingredientPattern: "GGG,GGG,GGG",
+		ingredients: {
+			"G": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "brass", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "lead", "tin", "zinc", "bismuth", "chromium", "platinum", "titanium", "molybdochalkos", "meteoriciron", "steel"] }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:metalblock-{metal}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "C	B",		
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"B": { type: "item", code: "game:metalblock-*",  name: "metal", allowedVariants: ["copper", "brass", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "lead", "tin", "zinc", "bismuth", "chromium", "platinum", "titanium", "molybdochalkos", "meteoriciron", "steel"] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:ingot-{metal}", quantity: 9 }
+	}
+]

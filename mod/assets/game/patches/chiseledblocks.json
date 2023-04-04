@@ -1,0 +1,9 @@
+[
+	{
+		"side": "Server",
+		"op": "add",
+		"path": "/output/quantity",
+		"value": 4,
+		"file": "recipes/grid/chiseledblockcombine.json"
+	}
+]

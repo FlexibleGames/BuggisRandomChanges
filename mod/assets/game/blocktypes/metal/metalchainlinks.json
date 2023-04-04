@@ -1,0 +1,37 @@
+{
+	code: "chainlinks",
+	"__comment": "Chainlinks to reduce chiseling",	
+	variantgroups: 
+	[
+		{ code: "metal", states: ["iron", "gold", "silver", "bismuth", "copper", "brass", "tinbronze", "lead"] }
+	],
+	creativeinventory: { "general": ["chainlinks-*"], "decorative": ["chainlinks-*"] },
+	textures: {
+		"chain": { base: "game:block/metal/plate/{metal}" }		
+	},
+	shape: { base: "game:block/chainlinks" },
+	drawtype: "json",
+	blockmaterial: "Metal",
+	sidesolid: {
+		up: true,
+		down: true,
+		all: false
+	},
+	sideopaque: { all: false },
+	resistance: 3,
+	drops: [
+		{
+			type: "block",
+			code: "game:chainlinks-{metal}"
+		}
+	],
+	lightAbsorption: 0,
+	vertexFlags: {
+		reflective: true
+	},	
+	collisionSelectionBox: { x1: 0.3125, y1: 0, z1: 0.3125, x2: 0.625, y2: 1, z2: 0.625 },
+	sounds: {
+		hit: "game:block/chute",
+		break: "game:block/chute",
+	}
+}

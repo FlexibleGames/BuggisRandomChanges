@@ -1,0 +1,9 @@
+{
+	code: "resin",
+	sealHours: 10,
+	ingredients: [
+		{ type: "item", code: "game:honeyportion",  litres: 10 },
+		{ type: "item", code: "game:powderedborax",  quantity: 4 }
+	],
+	output: { type: "item", code: "game:resin", stackSize: 6 }
+}

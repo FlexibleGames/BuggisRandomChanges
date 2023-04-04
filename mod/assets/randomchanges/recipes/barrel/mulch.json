@@ -1,0 +1,8 @@
+{
+	code: "compost",
+	sealHours: 24,
+	ingredients: [
+		{ type: "item", code: "game:drygrass",  quantity: 4 },
+	],
+	output: { type: "item", code: "game:compost", stackSize: 2 }
+}

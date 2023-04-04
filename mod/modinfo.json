@@ -1,0 +1,11 @@
+{
+  "type": "content",
+  "modid": "BuggisRandomChanges",
+  "name": "Buggi's Random Changes",
+  "authors": [ "Flexible Games" ],
+  "description": "Changes many small areas, mod started on stream as example.",
+  "website": "https://www.youtube.com/c/FlexibleGames",
+  "side": "Universal",
+  "version": "3.1.0",
+  "dependency": {}
+}

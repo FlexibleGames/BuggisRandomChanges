@@ -1,0 +1,5 @@
+[
+	{  "side": "Server", "op": "replace", "path": "/attributes/quantitySlots/normal", "value": 24, "file": "blocktypes/clay/storagevessel.json" },
+	{  "side": "Server", "op": "replace", "path": "/attributes/spoilSpeedMulByFoodCat/normal/vegetable", "value": 0.20, "file": "blocktypes/clay/storagevessel.json" },
+	{  "side": "Server", "op": "replace", "path": "/attributes/spoilSpeedMulByFoodCat/normal/grain", "value": 0.20, "file": "blocktypes/clay/storagevessel.json" }
+]

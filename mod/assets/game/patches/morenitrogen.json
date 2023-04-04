@@ -1,0 +1,16 @@
+[
+  { 
+	"side": "Server", 
+    "op": "replace",
+    "path": "/output/stackSize",
+    "value": 32,
+    "file": "recipes/barrel/compost.json"
+  },
+  { 
+	"side": "Server", 
+    "op": "replace",
+    "path": "/sealHours",
+    "value": 8,
+    "file": "recipes/barrel/compost.json"
+  }
+]

@@ -1,0 +1,31 @@
+[
+	{
+		ingredientPattern: "C	C	C",
+		ingredients: {
+			"C": { type: "item", code: "game:chainlink-*", name: "metal", allowedVariants: ["iron", "gold", "silver", "bismuth", "copper", "brass", "tinbronze", "lead"] }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "block", code: "game:chainlinks-{metal}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "C	F",		
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"F": { type: "block", code: "game:chainlinks-*",  name: "metal" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	F",		
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"F": { type: "item", code: "game:chainlink-*",  name: "metal" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 3 }
+	}
+]

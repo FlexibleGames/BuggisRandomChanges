@@ -1,0 +1,9 @@
+[
+  { 
+	"side": "Server", 
+    "op": "replace",
+    "path": "/maxstacksize",
+    "value": 400,
+    "file": "itemtypes/resource/nugget.json"
+  }
+]  

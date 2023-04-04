@@ -1,0 +1,22 @@
+[
+	{
+		ingredientPattern: "_I_,IPI,I_I",
+		ingredients: {
+			"I": { type: "item", code: "game:ingot-*", name: "metal" },
+			"P": { type: "item", code: "game:metalplate-*", name: "metal" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:craftablechandelier-{metal}-candle0", quantity: 1  }
+	},
+	{
+		ingredientPattern: "C	B",		
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"B": { type: "block", code: "game:craftablechandelier-*-candle0",  name: "metal" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-{metal}", quantity: 140 }
+	}	
+]

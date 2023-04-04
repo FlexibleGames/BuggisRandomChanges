@@ -1,0 +1,73 @@
+{
+	code: "craftablechandelier",
+	"__comment": "BlockChandelier handles the placing of candles on the chandelier",
+	class: "BlockChandelier",
+	behaviors: [
+	 { name: "UnstableFalling", properties: { 
+		attachableFaces: ["up", "down"],
+		impactDamageMul: 10,
+		attachmentAreas: {
+			"down": { x1: 7, y1: 15, z1: 7, x2: 8, y2: 15, z2: 8 },
+			"up": { x1: 7, y1: 0, z1: 7, x2: 8, y2: 0, z2: 8 }
+		}
+	 }}
+	],
+	variantgroups: 
+	[
+		{ code: "metal", loadFromProperties: "block/metal" },
+		{ code: "type", states: ["candle0", "candle1", "candle2", "candle3", "candle4", "candle5", "candle6", "candle7", "candle8"] }		
+	],
+	creativeinventory: { "general": ["*-candle0", "*-candle8"], "decorative": ["*-candle0", "*-candle8"] },
+	textures: {
+		"blackbronze": { base: "game:block/metal/ingot/{metal}" },
+		"candle": { base:"game:block/candle" }
+	},
+	shape: { base: "game:block/metal/craftablechandelier/{type}" },
+	drawtype: "json",
+	blockmaterial: "Metal",
+	sidesolid: { all: false },
+	sideopaque: { all: false },
+	resistance: 3,
+	lightHsvByType: {
+		"craftablechandelier-*-candle0": [9, 3, 0],
+		"craftablechandelier-*-candle1": [9, 3, 8],
+		"craftablechandelier-*-candle1": [9, 3, 10],
+		"craftablechandelier-*-candle2": [9, 3, 12],
+		"craftablechandelier-*-candle3": [9, 3, 14],
+		"craftablechandelier-*-candle4": [9, 3, 16],
+		"craftablechandelier-*-candle5": [9, 3, 18],
+		"craftablechandelier-*-candle6": [9, 3, 20],
+		"craftablechandelier-*-candle7": [9, 3, 24],
+		"craftablechandelier-*-candle8": [9, 3, 28]
+	},
+	drops: [
+		{
+			type: "item", 
+			code: "candle", 
+			quantityByType:  {
+				"*0": { avg: 0 },
+				"*1": { avg: 1 },
+				"*2": { avg: 2 },
+				"*3": { avg: 3 },
+				"*4": { avg: 4 },
+				"*5": { avg: 5 },
+				"*6": { avg: 6 },
+				"*7": { avg: 7 },
+				"*8": { avg: 8 }
+			}
+		},
+		{
+			type: "block",
+			code: "game:craftablechandelier-{metal}-candle0"
+		}
+	],
+	lightAbsorption: 0,
+	vertexFlags: {
+		reflective: true
+	},	
+	collisionSelectionBox: { x1: 0.0625, y1: 0, z1: 0.0625, x2: 0.9375, y2: 1, z2: 0.9375 },
+	sounds: {
+		hit: "game:block/chandelier-hit",
+		break: "game:block/chandelier-break",
+	}
+}
