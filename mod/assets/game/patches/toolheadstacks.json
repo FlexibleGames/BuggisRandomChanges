@@ -1,5 +1,5 @@
 [
-	{  "side": "Server", "op": "replace", "path": "/maxstacksize", "value": 32, "file": "itemtypes/toolhead/longblade.json" },
+	{  "side": "Server", "op": "replace", "path": "/maxstacksize", "value": 32, "file": "itemtypes/toolhead/bladehead.json" },
 	{  "side": "Server", "op": "replace", "path": "/maxstacksize", "value": 32, "file": "itemtypes/toolhead/pickaxehead.json" },
 	{  "side": "Server", "op": "replace", "path": "/maxstacksize", "value": 32, "file": "itemtypes/toolhead/prospectingpickhead.json" },
 	{  "side": "Server", "op": "replace", "path": "/maxstacksize", "value": 32, "file": "itemtypes/toolhead/sawblade.json" },
