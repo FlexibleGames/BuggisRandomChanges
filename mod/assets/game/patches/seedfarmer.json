@@ -135,17 +135,10 @@
 	{ 
 		"side": "Server", 
 		"op": "replace",
-		"path": "/nutritionPropsByType/pumpkin-fruit-4/saturation",
-		"value": 1024,
-		"file": "blocktypes/plant/pumpkin/fruit.json"
+		"path": "/nutritionPropsByType/*-pumpkin/satiety",
+		"value": 400,
+		"file": "itemtypes/food/vegetable.json"
 	},
-	{ 
-		"side": "Server", 
-		"op": "replace",
-		"path": "/attributes/nutritionPropsWhenInMeal/satiety",
-		"value": 1500,
-		"file": "blocktypes/plant/pumpkin/fruit.json"
-	},	
 	{ 
 		"side": "Server", 
 		"op": "replace",
