@@ -5,8 +5,8 @@
 		"path": "/crushingPropsByType",
 		"value": {
 					"*": {
-						crushedStack: { type: "block", code: "game:sand-{rock}", stacksize: 2 },
-						hardnessTier: 2
+						"crushedStack": { "type": "block", "code": "game:sand-{rock}", "stacksize": 2 },
+						"hardnessTier": 2
 					}
 				},
 		"file": "blocktypes/stone/gravel.json"

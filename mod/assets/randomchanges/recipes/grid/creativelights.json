@@ -1,0 +1,268 @@
+[
+    {
+        "ingredientPattern": "RCD,S",        
+        "ingredients": {
+            "C": { "type": "item", "code": "game:chisel-*", "isTool": true },
+            "R": { "type": "block", "code": "game:rockpolished-whitemarble" },
+            "D": { "type": "item", "code": "game:leather", "quantity": 2 },
+            "S": { "type": "item", "code": "game:resin", "quantity": 1 }
+        },
+        "width": 3,
+        "height": 2,
+        "shapeless": true,
+        "output": { "type": "block", "code": "game:creativelight-79", "quantity": 1 }
+    },
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-79" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-32", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-32" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-33", "quantity": 1 }
+    },
+
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-33" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-34", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-34" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-35", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-35" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-36", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-36" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-37", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-37" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-38", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-38" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-39", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-39" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-40", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-40" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-41", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-41" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-42", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-42" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-43", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-43" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-44", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-44" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-45", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-45" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-46", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-46" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-47", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-47" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-48", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-48" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-49", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-49" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-50", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-50" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-51", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-51" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-52", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-52" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-53", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-53" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-54", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-54" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-55", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-55" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-56", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-56" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-57", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-57" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-58", "quantity": 1 }
+    }, 
+    {
+        "ingredientPattern": "C",        
+        "ingredients": {
+            "C": { "type": "block", "code": "game:creativelight-58" }
+        },
+        "width": 1,
+        "height": 1,        
+        "output": { "type": "block", "code": "game:creativelight-59", "quantity": 1 }
+    }
+]

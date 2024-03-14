@@ -63,10 +63,10 @@
 		"op": "add", 
 		"path": "/attributes/protectionModifiersByType/armor-*-chain-titanium", 
 		"value": {			
-				relativeProtection: 0.99,
-				flatDamageReduction: 4,
-				highDamageTierResistant: true,
-				protectionTier: 4			
+				"relativeProtection": 0.99,
+				"flatDamageReduction": 4,
+				"highDamageTierResistant": true,
+				"protectionTier": 4	
 				}, 
 		"file": "itemtypes/wearable/armor.json" 
 	},

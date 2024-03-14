@@ -1,0 +1,26 @@
+[
+	{ 
+		"side": "Server", 
+		"op": "add", 
+		"path": "/crushingPropsByType",
+		"value": {
+					"*": {
+						"crushedStack": { "type": "block", "code": "game:gravel-{rock}", "stacksize": 2 },
+						"hardnessTier": 2
+					}
+				},
+		"file": "blocktypes/stone/rock.json"
+	},
+	{ 
+		"side": "Server", 
+		"op": "add", 
+		"path": "/crushingPropsByType",
+		"value": {
+					"*": {
+						"crushedStack": { "type": "block", "code": "game:gravel-{rock}", "stacksize": 2 },
+						"hardnessTier": 2
+					}
+				},
+		"file": "blocktypes/stone/crackedrock.json"
+	}    
+]
