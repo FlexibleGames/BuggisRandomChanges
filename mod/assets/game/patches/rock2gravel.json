@@ -1,26 +1,128 @@
 [
 	{ 
-		"side": "Server", 
 		"op": "add", 
 		"path": "/crushingPropsByType",
 		"value": {
-					"*": {
-						"crushedStack": { "type": "block", "code": "game:gravel-{rock}", "stacksize": 2 },
+					"*-andesite": {
+						"crushedStack": { "type": "block", "code": "game:gravel-andesite", "stacksize": 2 },
+						"hardnessTier": 2
+					},
+					"*-chalk": {
+						"crushedStack": { "type": "block", "code": "game:gravel-chalk", "stacksize": 2 },
+						"hardnessTier": 2
+					},
+					"*-chert": {
+						"crushedStack": { "type": "block", "code": "game:gravel-chert", "stacksize": 2 },
+						"hardnessTier": 2
+					},
+					"*-conglomerate": {
+						"crushedStack": { "type": "block", "code": "game:gravel-conglomerate", "stacksize": 2 },
+						"hardnessTier": 2
+					},
+					"*-limestone": {
+						"crushedStack": { "type": "block", "code": "game:gravel-limestone", "stacksize": 2 },
+						"hardnessTier": 2
+					},
+					"*-claystone": {
+						"crushedStack": { "type": "block", "code": "game:gravel-claystone", "stacksize": 2 },
+						"hardnessTier": 2
+					},
+					"*-granite": {
+						"crushedStack": { "type": "block", "code": "game:gravel-granite", "stacksize": 2 },
+						"hardnessTier": 2
+					},
+					"*-sandstone": {
+						"crushedStack": { "type": "block", "code": "game:gravel-sandstone", "stacksize": 2 },
+						"hardnessTier": 2
+					},
+					"*-shale": {
+						"crushedStack": { "type": "block", "code": "game:gravel-shale", "stacksize": 2 },
+						"hardnessTier": 2
+					},
+					"*-basalt": {
+						"crushedStack": { "type": "block", "code": "game:gravel-basalt", "stacksize": 2 },
+						"hardnessTier": 2
+					},
+					"*-peridotite": {
+						"crushedStack": { "type": "block", "code": "game:gravel-peridotite", "stacksize": 2 },
+						"hardnessTier": 2
+					},
+					"*-phyllite": {
+						"crushedStack": { "type": "block", "code": "game:gravel-phyllite", "stacksize": 2 },
+						"hardnessTier": 2
+					},
+					"*-slate": {
+						"crushedStack": { "type": "block", "code": "game:gravel-slate", "stacksize": 2 },
+						"hardnessTier": 2
+					},
+					"*-bauxite": {
+						"crushedStack": { "type": "block", "code": "game:gravel-bauxite", "stacksize": 2 },
 						"hardnessTier": 2
 					}
 				},
 		"file": "blocktypes/stone/rock.json"
 	},
 	{ 
-		"side": "Server", 
 		"op": "add", 
 		"path": "/crushingPropsByType",
 		"value": {
-					"*": {
-						"crushedStack": { "type": "block", "code": "game:gravel-{rock}", "stacksize": 2 },
-						"hardnessTier": 2
-					}
-				},
+			"*-andesite": {
+				"crushedStack": { "type": "block", "code": "game:gravel-andesite", "stacksize": 2 },
+				"hardnessTier": 2
+			},
+			"*-chalk": {
+				"crushedStack": { "type": "block", "code": "game:gravel-chalk", "stacksize": 2 },
+				"hardnessTier": 2
+			},
+			"*-chert": {
+				"crushedStack": { "type": "block", "code": "game:gravel-chert", "stacksize": 2 },
+				"hardnessTier": 2
+			},
+			"*-conglomerate": {
+				"crushedStack": { "type": "block", "code": "game:gravel-conglomerate", "stacksize": 2 },
+				"hardnessTier": 2
+			},
+			"*-limestone": {
+				"crushedStack": { "type": "block", "code": "game:gravel-limestone", "stacksize": 2 },
+				"hardnessTier": 2
+			},
+			"*-claystone": {
+				"crushedStack": { "type": "block", "code": "game:gravel-claystone", "stacksize": 2 },
+				"hardnessTier": 2
+			},
+			"*-granite": {
+				"crushedStack": { "type": "block", "code": "game:gravel-granite", "stacksize": 2 },
+				"hardnessTier": 2
+			},
+			"*-sandstone": {
+				"crushedStack": { "type": "block", "code": "game:gravel-sandstone", "stacksize": 2 },
+				"hardnessTier": 2
+			},
+			"*-shale": {
+				"crushedStack": { "type": "block", "code": "game:gravel-shale", "stacksize": 2 },
+				"hardnessTier": 2
+			},
+			"*-basalt": {
+				"crushedStack": { "type": "block", "code": "game:gravel-basalt", "stacksize": 2 },
+				"hardnessTier": 2
+			},
+			"*-peridotite": {
+				"crushedStack": { "type": "block", "code": "game:gravel-peridotite", "stacksize": 2 },
+				"hardnessTier": 2
+			},
+			"*-phyllite": {
+				"crushedStack": { "type": "block", "code": "game:gravel-phyllite", "stacksize": 2 },
+				"hardnessTier": 2
+			},
+			"*-slate": {
+				"crushedStack": { "type": "block", "code": "game:gravel-slate", "stacksize": 2 },
+				"hardnessTier": 2
+			},
+			"*-bauxite": {
+				"crushedStack": { "type": "block", "code": "game:gravel-bauxite", "stacksize": 2 },
+				"hardnessTier": 2
+			}
+		},
 		"file": "blocktypes/stone/crackedrock.json"
 	}    
 ]

@@ -1,0 +1,66 @@
+[
+    {
+        "ingredientPattern": "AC",
+        "shapeless": true,
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": { "type": "block", "code": "game:chute-straight-*" },
+            "C": { "type": "item", "code": "game:chisel-*", "isTool": true }
+        },
+        "name": "chuterecycles",
+        "output": { "type": "item", "code": "game:chutesection-copper", "quantity": 2 }
+    },
+
+    {
+        "ingredientPattern": "AC",
+        "shapeless": true,
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": { "type": "block", "code": "game:chute-elbow-*" },
+            "C": { "type": "item", "code": "game:chisel-*", "isTool": true }
+        },
+        "name": "chuterecyclee",
+        "output": { "type": "item", "code": "game:chutesection-copper", "quantity": 2 }
+    },
+
+    {
+        "ingredientPattern": "AC",
+        "shapeless": true,
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": { "type": "block", "code": "game:chute-cross-*" },
+            "C": { "type": "item", "code": "game:chisel-*", "isTool": true }
+        },
+        "name": "chuterecyclec",
+        "output": { "type": "item", "code": "game:chutesection-copper", "quantity": 4 }
+    },
+
+    {
+        "ingredientPattern": "AC",
+        "shapeless": true,
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": { "type": "block", "code": "game:chute-t-*" },
+            "C": { "type": "item", "code": "game:chisel-*", "isTool": true }
+        },
+        "name": "chuterecyclet",
+        "output": { "type": "item", "code": "game:chutesection-copper", "quantity": 3 }
+    },
+
+    {
+        "ingredientPattern": "AC",
+        "shapeless": true,
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": { "type": "block", "code": "game:chute-3way-*" },
+            "C": { "type": "item", "code": "game:chisel-*", "isTool": true }
+        },
+        "name": "chuterecycle3",
+        "output": { "type": "item", "code": "game:chutesection-copper", "quantity": 3 }
+    }
+]

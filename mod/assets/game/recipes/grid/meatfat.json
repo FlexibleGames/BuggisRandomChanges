@@ -1,0 +1,54 @@
+[
+    {
+        "ingredientPattern": "K,H",
+        "enabled": true,
+        "shapeless": true,
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "H": { "type": "item", "code": "game:bushmeat-raw", "quantity": 1 }
+        },
+        "name": "bushfat",
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "game:fat", "quantity": 2 }
+    },
+    {
+        "ingredientPattern": "K,H",
+        "enabled": true,
+        "shapeless": true,
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "H": { "type": "item", "code": "game:redmeat-raw", "quantity": 1 }
+        },
+        "name": "redfat",
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "game:fat", "quantity": 4 }
+    },
+    {
+        "ingredientPattern": "K,H",
+        "enabled": true,
+        "shapeless": true,
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "H": { "type": "item", "code": "game:poultry-raw", "quantity": 1 }
+        },
+        "name": "birdfat",
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "game:fat", "quantity": 2 }
+    },
+    {
+        "ingredientPattern": "K,H",
+        "enabled": true,
+        "shapeless": true,
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+            "H": { "type": "item", "code": "game:fish-raw", "quantity": 1 }
+        },
+        "name": "fishfat",
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "game:fat", "quantity": 5 }
+    }
+]

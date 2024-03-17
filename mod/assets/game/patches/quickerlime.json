@@ -1,0 +1,4 @@
+[
+    {  "side": "Server", "op": "replace", "path": "/combustibleProps/smeltedRatio", "value": 1, "file": "itemtypes/resource/crushed/lime.json" },
+    {  "side": "Server", "op": "replace", "path": "/combustibleProps/meltingDuration", "value": 5, "file": "itemtypes/resource/crushed/lime.json" }
+]

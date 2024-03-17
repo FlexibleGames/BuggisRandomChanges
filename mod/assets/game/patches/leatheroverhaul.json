@@ -1,0 +1,28 @@
+[
+	{  "side": "Server", "op": "replace", "path": "/0/ingredients/0/litres", "value": 1, "file": "recipes/barrel/soakedhide-lime.json" },
+	{  "side": "Server", "op": "replace", "path": "/0/ingredients/0/consumeLitres", "value": 1, "file": "recipes/barrel/soakedhide-lime.json" },
+	{  "side": "Server", "op": "replace", "path": "/1/ingredients/0/litres", "value": 1, "file": "recipes/barrel/soakedhide-lime.json" },
+	{  "side": "Server", "op": "replace", "path": "/1/ingredients/0/consumeLitres", "value": 1, "file": "recipes/barrel/soakedhide-lime.json" },
+	{  "side": "Server", "op": "replace", "path": "/2/ingredients/0/litres", "value": 1, "file": "recipes/barrel/soakedhide-lime.json" },
+	{  "side": "Server", "op": "replace", "path": "/2/ingredients/0/consumeLitres", "value": 1, "file": "recipes/barrel/soakedhide-lime.json" },
+	{  "side": "Server", "op": "replace", "path": "/3/ingredients/0/litres", "value": 1, "file": "recipes/barrel/soakedhide-lime.json" },
+	{  "side": "Server", "op": "replace", "path": "/3/ingredients/0/consumeLitres", "value": 1, "file": "recipes/barrel/soakedhide-lime.json" },
+
+	{  "side": "Server", "op": "replace", "path": "/0/ingredients/0/litres", "value": 1, "file": "recipes/barrel/preparedhide.json" },
+	{  "side": "Server", "op": "replace", "path": "/0/ingredients/0/consumeLitres", "value": 1, "file": "recipes/barrel/preparedhide.json" },
+	{  "side": "Server", "op": "replace", "path": "/1/ingredients/0/litres", "value": 1, "file": "recipes/barrel/preparedhide.json" },
+	{  "side": "Server", "op": "replace", "path": "/1/ingredients/0/consumeLitres", "value": 1, "file": "recipes/barrel/preparedhide.json" },
+	{  "side": "Server", "op": "replace", "path": "/2/ingredients/0/litres", "value": 1, "file": "recipes/barrel/preparedhide.json" },
+	{  "side": "Server", "op": "replace", "path": "/2/ingredients/0/consumeLitres", "value": 1, "file": "recipes/barrel/preparedhide.json" },
+	{  "side": "Server", "op": "replace", "path": "/3/ingredients/0/litres", "value": 1, "file": "recipes/barrel/preparedhide.json" },
+	{  "side": "Server", "op": "replace", "path": "/3/ingredients/0/consumeLitres", "value": 1, "file": "recipes/barrel/preparedhide.json" },
+
+	{  "side": "Server", "op": "replace", "path": "/0/ingredients/0/litres", "value": 1, "file": "recipes/barrel/leather.json" },
+	{  "side": "Server", "op": "replace", "path": "/0/ingredients/0/consumeLitres", "value": 1, "file": "recipes/barrel/leather.json" },
+	{  "side": "Server", "op": "replace", "path": "/1/ingredients/0/litres", "value": 1, "file": "recipes/barrel/leather.json" },
+	{  "side": "Server", "op": "replace", "path": "/1/ingredients/0/consumeLitres", "value": 1, "file": "recipes/barrel/leather.json" },
+	{  "side": "Server", "op": "replace", "path": "/2/ingredients/0/litres", "value": 1, "file": "recipes/barrel/leather.json" },
+	{  "side": "Server", "op": "replace", "path": "/2/ingredients/0/consumeLitres", "value": 1, "file": "recipes/barrel/leather.json" },
+	{  "side": "Server", "op": "replace", "path": "/3/ingredients/0/litres", "value": 1, "file": "recipes/barrel/leather.json" },
+	{  "side": "Server", "op": "replace", "path": "/3/ingredients/0/consumeLitres", "value": 1, "file": "recipes/barrel/leather.json" }
+]
