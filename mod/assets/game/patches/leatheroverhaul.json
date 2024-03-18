@@ -24,5 +24,10 @@
 	{  "side": "Server", "op": "replace", "path": "/2/ingredients/0/litres", "value": 1, "file": "recipes/barrel/leather.json" },
 	{  "side": "Server", "op": "replace", "path": "/2/ingredients/0/consumeLitres", "value": 1, "file": "recipes/barrel/leather.json" },
 	{  "side": "Server", "op": "replace", "path": "/3/ingredients/0/litres", "value": 1, "file": "recipes/barrel/leather.json" },
-	{  "side": "Server", "op": "replace", "path": "/3/ingredients/0/consumeLitres", "value": 1, "file": "recipes/barrel/leather.json" }
+	{  "side": "Server", "op": "replace", "path": "/3/ingredients/0/consumeLitres", "value": 1, "file": "recipes/barrel/leather.json" },
+
+	{  "side": "Server", "op": "replace", "path": "/maxstacksizeByType/*-small", "value": 50, "file": "itemtypes/resource/hide.json" },
+	{  "side": "Server", "op": "replace", "path": "/maxstacksizeByType/*-medium", "value": 50, "file": "itemtypes/resource/hide.json" },
+	{  "side": "Server", "op": "replace", "path": "/maxstacksizeByType/*-large", "value": 50, "file": "itemtypes/resource/hide.json" },
+	{  "side": "Server", "op": "replace", "path": "/maxstacksizeByType/*-huge", "value": 50, "file": "itemtypes/resource/hide.json" }
 ]

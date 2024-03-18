@@ -1,0 +1,7 @@
+[
+	{  "side": "Server", "op": "replace", "path": "/attributesByType/*-linen-honey-sulfur/health", "value": 20, "file": "itemtypes/poultice.json" },
+	{  "side": "Server", "op": "replace", "path": "/attributesByType/*-linen-horsetail/health", "value": 10, "file": "itemtypes/poultice.json" },
+
+    {  "side": "Server", "op": "replace", "path": "/nutritionPropsByType/*-blue-1slice/saturation", "value": 500, "file": "itemtypes/food/cheese.json" },
+    {  "side": "Server", "op": "replace", "path": "/nutritionPropsByType/*-blue-1slice/health", "value": 20, "file": "itemtypes/food/cheese.json" }
+]
